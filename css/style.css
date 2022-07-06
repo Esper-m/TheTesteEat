@@ -2582,6 +2582,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 6.25rem;
+    padding-bottom: 0.5rem;
   }
 
   .top-footer__tag {
@@ -2600,6 +2602,10 @@ body {
   .socials-footer__item:nth-child(3),
   .socials-footer__item:nth-child(4) {
     top: 0;
+  }
+
+  .body-footer__container {
+    padding-bottom: 1.25rem;
   }
 
   .body-footer__contacts {
@@ -2624,6 +2630,11 @@ body {
     display: none;
   }
 
+  .contacts__container {
+    padding-top: 3.75rem;
+    padding-bottom: 2.5rem;
+  }
+
   .contacts__items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2644,6 +2655,16 @@ body {
     text-align: left;
   }
 
+  .about-block__container {
+    padding-top: 3.75rem;
+    padding-bottom: 5rem;
+  }
+
+  .menu-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 8.75rem;
+  }
+
   .menu-content__item span {
     display: none;
   }
@@ -2654,8 +2675,18 @@ body {
             flex-grow: 1;
   }
 
+  .testimonial-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 5rem;
+  }
+
   .response-card__body {
     width: 20rem;
+  }
+
+  .discount-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 5rem;
   }
 
   .discount-block__cards {
@@ -2683,14 +2714,33 @@ body {
     text-align: center;
   }
 
+  .menu-popular__container {
+    padding-bottom: 5rem;
+  }
+
+  .offer-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+
   .offer-block__item {
     border: 10px solid #323841;
     min-height: 12.5rem;
   }
 
+  .blog-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+
   .blog-block__posts {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+
+  .reservation-block__container {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .reservation-block__body {
